@@ -25,7 +25,7 @@ TARGET_OTA_ASSERT_DEVICE := enchilada,OnePlus6,oneplus6
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
 
 # Prebuilt TWRP BLACK recovery
-TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := device/twrp/black/enchilada/ramdisk-recovery.cpio
+TARGET_PREBUILT_RECOVERY_RAMDISK_CPIO := recovery/twrp/black/device/oneplus/enchilada/ramdisk-recovery.cpio
 
 # inherit from the proprietary version
 -include vendor/oneplus/enchilada/BoardConfigVendor.mk
