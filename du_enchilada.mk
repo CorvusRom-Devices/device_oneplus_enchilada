@@ -41,7 +41,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlus6 \
     PRIVATE_BUILD_DESC="OnePlus6-user 8.1.0 OPM1.171019.011 273 release-keys"
 
-BUILD_FINGERPRINT := google/coral/coral:11/RP1A.200720.009/6720564:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201105.002/6869500:user/release-keys
 
 # PixelGApps
 $(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
